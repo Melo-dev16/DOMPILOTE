@@ -25,7 +25,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 if(isset($_SERVER['HTTPS'])){$pro = "https://";}else{$pro = "http://";}
 
-$config['base_url'] = $pro.$_SERVER['SERVER_NAME'].':8000';
+//$config['base_url'] = $pro.$_SERVER['SERVER_NAME'].':8000';
+$config['base_url'] = "https://dompilote.herokuapp.com";
+
 /*
 |--------------------------------------------------------------------------
 | Index File
